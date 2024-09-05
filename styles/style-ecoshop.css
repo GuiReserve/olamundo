@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+
+*{
+  margin: 10;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
+body{
+  background-color: #ebecf0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: var(--cor-primaria);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li:hover{
+   text-decoration:underline;
+}
+ 
+.cabecalho-menu{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 20px;
+}
+
+.cabecalho-menu-item{
+  margin-top: 100px;
+  font-family: 'Belleza';
+  font-size: 30px;
+
+}
+
+
+.imagemprincipal{
+  background-color: #fcfcfa;
+  width: 1500px;
+}
+  
+  
+li:hover{
+     text-decoration:underline;
+  }
+   
+ 
+.blocos-principal{
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 20px;
+    background-color: white;
+  
+  }
+  
